@@ -1,0 +1,35 @@
+.container-header {
+  margin: 0 auto;
+  width: 1264px;
+  max-width: 100%;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+
+  > h1 {
+    font-size: 48px;
+    font-family: 'Mansalva', cursive;
+
+  }
+
+  &__github {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 4px;
+
+    > img {
+      width: 32px;
+      margin-right: 8px;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, .3);
+    }
+  }
+}

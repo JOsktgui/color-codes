@@ -1,0 +1,48 @@
+.container-card-color {
+  padding: 8px;
+  width: calc(100% / 2);
+
+  &__body {
+    border-radius: 4px;
+    cursor: pointer;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    color: #FFF;
+    transition: all .2s;
+
+    > .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      > .name {
+        margin-bottom: 4px;
+        font-size: 18px;
+      }
+
+      > .color {
+        font-weight: 600;
+      }
+    }
+
+    > .pantone {
+      text-align: right;
+    }
+
+    &:hover {
+      box-shadow: 0 0px 14px rgba(0, 0, 0, 0.22);
+      transform: translateY(-3px);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 3);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: calc(100% / 4);
+  }
+}
