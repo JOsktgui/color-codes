@@ -7,7 +7,10 @@ const Header = () => {
     <div className='container-header'>
       <h1>ColorCodes</h1>
       <div>
-        <div className='container-header__github'>
+        <div
+          className='container-header__github'
+          onClick={() => window.open('https://github.com/JOsktgui/color-codes', '_blank')}
+        >
           <img src={githubSvg} alt='github' />
           GitHub
         </div>
