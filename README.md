@@ -43,7 +43,7 @@ frecuentemente para los distintos proyectos que se realizan y realizaran.
 4. El proyecto estará corriendo el puerto `3000` por default 
 
 ## Demo
-[Ver demo](https://5df19e2e7636446af553d69f--vibrant-bell-94bf41.netlify.com/)
+[Ver demo](https://vibrant-bell-94bf41.netlify.com/)
 
 1. Elige un color
 2. Haz click sobre el color que elegiste
