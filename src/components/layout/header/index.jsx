@@ -5,7 +5,7 @@ import './styles.less';
 const Header = () => {
   return (
     <div className='container-header'>
-      <h1>Colors</h1>
+      <h1>ColorCodes</h1>
       <div>
         <div className='container-header__github'>
           <img src={githubSvg} alt='github' />

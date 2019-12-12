@@ -1,0 +1,67 @@
+.container-color-shades {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: @primary-color;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+
+    > span {
+      width: 32px;
+      height: 32px;
+      background-color: red;
+      display: inline-block;
+      border-radius: 100%;
+      margin-right: 12px;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+  }
+
+  &__color {
+    padding: 4px;
+    width: calc(100% / 3);
+    user-select: none;
+
+    > div {
+      margin-bottom: 8px;
+      border-radius: 4px;
+      height: 72px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFF;
+    }
+
+    > span {
+      font-weight: 500;
+      font-size: 16px;
+      color: #7f7f7f;
+    }
+  }
+
+  @media screen and (min-width: @min-width-tablet) {
+    &__color {
+      width: calc(100% / 5);
+    }
+  }
+
+  @media screen and (min-width: @min-width-desktop) {
+    &__color {
+      width: calc(100% / 10);
+    }
+  }
+}
